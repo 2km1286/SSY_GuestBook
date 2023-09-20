@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+.guestbook_post
+{
+	width:100%;
+	margin-bottom: 10px;
+	background-color: whitesmoke;
+	border: 1px solid lightgray;
+	border-radius: 7px;
+}
+
+.guestbook_no,.guestbook_name,.guestbook_date, .guestbook_best
+{
+	display : inline-block;
+	font-family: 'GmarketSansMedium';
+}
+
+.guestbook_no
+{
+	padding : 10px 5px 10px 10px;
+	font-size: small;
+}
+
+.guestbook_name
+{
+	padding : 10px 0;
+	color : rgb(70,70,70);
+	font-family: 'GmarketSansBold';
+}
+
+.guestbook_date
+{
+	padding : 10px 10px 10px 5px;
+	color: gray;
+	font-size: small;
+}
+
+.guestbook_content
+{
+	display: flex;
+	flex-direction: row;
+	width:100%;
+	padding: 10px;
+	background-color: white;
+}
+
+
+.guestbook_best
+{
+	padding : 1px 1px 1px 1px;
+	color: white ;
+	background-color: red;
+	font-size: small;
+	font-weight: bold;
+	width: 45px;
+	
+}

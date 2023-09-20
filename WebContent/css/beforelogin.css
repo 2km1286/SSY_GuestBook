@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+body 
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #f2f2f2;
+	background-image: url(images/back.png);
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+h2 
+{
+  text-align: center;
+}
+
+
+.container
+{
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* 가운데 정렬 */
+}
+
+.form-group 
+{
+  margin-bottom: 15px;
+}
+
+.form-group label 
+{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] 
+{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-group 
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.btn-group button 
+{
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.btn-group button:last-child 
+{
+	margin-right: 0;
+}
+
+.btn-group button:hover
+{
+	color: white;
+	background-color: #787;
+}
+
+.logo 
+{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.logo img 
+{
+	width: 30%; 
+}
